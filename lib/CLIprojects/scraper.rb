@@ -8,7 +8,7 @@ class Scraper
        self.scrape.each do |ele|
          name = ele.search("div.question").text.strip
          info = ele.search("div.answer").text
-         Mythology.new(name, info)
+         Mythologies.new(name, info)
        end
      end
 

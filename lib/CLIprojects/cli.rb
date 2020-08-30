@@ -16,13 +16,13 @@ class CLI
   end
 
  def display_mythologies
-    Mythology.all.each.with_index(1) do |mythology, i|
+    Mythologies.all.each.with_index(1) do |mythologies, i|
       puts "#{i}.   #{mythologies.name}"
     end
   end
 
   def display_info
-    Mythology.all.each.with_index(1) do |mythology, i|
+    Mythologies.all.each.with_index(1) do |mythologies, i|
     end
   end
 
@@ -34,7 +34,7 @@ class CLI
 
      if input.to_i > 0 && input.to_i < 8
         the_mythologies = display_info[input.to_i-1]
-        puts "#{the_mythology.name} - #{the_mythology.info}"
+        puts "#{the_mythologies.name} - #{the_mythologies.info}"
       elsif input == "list"
         display_mythologies
       elsif input != "exit"
