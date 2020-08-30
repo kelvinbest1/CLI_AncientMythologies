@@ -11,3 +11,5 @@ class Scraper
          Mythology.new(name, info)
        end
      end
+
+   end

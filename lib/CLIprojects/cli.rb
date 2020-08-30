@@ -1,6 +1,7 @@
 class CLI
 
   def start
+    Scraper.scrape_mythologies
     welcome
     display_mythologies
     menu
@@ -43,6 +44,6 @@ class CLI
   end
 
   def goodbye
-puts SEE YOU NEXT TIME!!
+puts "SEE YOU NEXT TIME!!"
   end
 end
