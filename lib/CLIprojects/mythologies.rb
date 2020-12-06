@@ -14,4 +14,4 @@ class Mythologies
       @@all
     end
   end
-.
+
