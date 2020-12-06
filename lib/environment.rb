@@ -5,3 +5,4 @@ require_relative "./CLIprojects/mythologies"
 require "nokogiri"
 require "open-uri"
 require "pry"
+.
