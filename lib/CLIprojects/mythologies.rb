@@ -4,7 +4,7 @@ class Mythologies
 
     @@all =[]
 
-    def initialize(name = nil, info = nil)
+    def initialize(name, info)
       @name =name
       @info = info
       @@all << self
