@@ -1,8 +1,8 @@
 # CLIproject
-
+Summary
 CLI_AncientMythologies Directory
 
-Welcome to ANCIENT MYTHOLOGIES! 
+Welcome to Ancient Mythologies! 
 This program will allow you view and list of mythologies and select to view information regarding the various mythologies.
 
 Installation
