@@ -16,13 +16,13 @@ class CLI
   end
 
  def display_mythologies
-    Mythologies.all.each.with_index(1) do |mythologies, i|
+    Mythology.all.each.with_index(1) do |mythologies, i|
       puts "#{i}.   #{mythologies.name}"
     end
   end
 
   def display_info
-    Mythologies.all.each.with_index(1) do |mythologies, i|
+    Mythology.all.each.with_index(1) do |mythologies, i|
     end
   end
 
