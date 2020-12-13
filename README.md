@@ -4,7 +4,7 @@ CLI_AncientMythologies Directory
 Summary
 
 Welcome to Ancient Mythologies! 
-This program will allow you view and list of mythologies and select to view information regarding the various mythologies.
+This program will allow you to view and select information regarding the various Ancient Mythologies.
 
 Installation
 
@@ -13,7 +13,7 @@ source "https://rubygems.org"
 $ gem install cli_project
 
 How to Use
-To run this program, please run "bin/run".
+To start this program, please run "bin/run".
 
 Contributing
 
