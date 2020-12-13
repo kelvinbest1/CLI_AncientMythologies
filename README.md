@@ -1,4 +1,4 @@
-# CLIproject
+# AncientMythologies
 CLI_AncientMythologies Directory
 
 # Summary
