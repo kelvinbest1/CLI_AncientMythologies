@@ -1,4 +1,4 @@
-class Mythologies
+class Mythology
 
   attr_accessor :name, :info
 
